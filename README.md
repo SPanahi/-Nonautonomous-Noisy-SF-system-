@@ -1,16 +1,16 @@
 # -Nonautonomous-Noisy-SF-system-
 Nonautonomous Noisy Slow-Fast Rosenzweig-MacArthur Predator-Prey System
 
-Overview
+# Nonautonomous Noisy Slow-Fast Rosenzweig-MacArthur Predator-Prey System
 
-This repository contains the implementation of a nonautonomous noisy slow-fast Rosenzweig-MacArthur predator-prey system. The Rosenzweig-MacArthur model is a well-known predator-prey system in ecological modeling, and this implementation extends it by incorporating slow-fast dynamics, external noise, and time-dependent parameters.
+## Overview
+This repository provides an implementation of a **nonautonomous noisy slow-fast Rosenzweig-MacArthur predator-prey system**, a model designed to capture the complex dynamics of predator-prey interactions under external perturbations and multiple timescales. This system extends the classic Rosenzweig-MacArthur framework by incorporating time-dependent parameters and stochastic fluctuations, making it particularly useful for studying ecological resilience and instability in fluctuating environments.
 
-Features
+## Features
+- **Slow-Fast Dynamics**: Incorporates distinct timescales to represent the different speeds of prey and predator population changes.
+- **Nonautonomous Behavior**: Allows system parameters to evolve over time, simulating seasonal or environmental variations.
+- **Stochastic Effects**: Introduces noise to analyze the impact of environmental randomness on ecosystem stability.
+- **Numerical Simulation Tools**: Provides functions for numerical integration and analysis of system trajectories under various conditions.
+- **Visualization**: Includes tools to generate time series plots, phase portraits, and bifurcation diagrams for better system analysis.
 
-Slow-Fast System: The model incorporates distinct timescales for prey and predator populations.
 
-Nonautonomous Dynamics: Time-dependent variations in system parameters are included.
-
-Noisy Environment: Stochastic perturbations are introduced to analyze system behavior under uncertainty.
-
-Numerical Simulations: The code provides tools to integrate the system numerically and analyze its behavior under different conditions.
